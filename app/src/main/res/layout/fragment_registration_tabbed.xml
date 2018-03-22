@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/constraintLayout"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:fillViewport="true"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.dell.DTUhack.RegistrationTabbedActivity$PlaceholderFragment">
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+
+
+
+            <EditText
+
+                android:id="@+id/et_name"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+                android:ems="11"
+
+                android:hint="Name" />
+
+
+
+            <EditText
+
+                android:id="@+id/et_dob"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+                android:ems="11"
+
+                android:hint="DOB" />
+
+
+
+            <EditText
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+                android:ems="11"
+
+                android:hint="EMAIL" />
+
+
+
+            <EditText
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+                android:ems="11"
+
+                android:hint="Username" />
+
+
+
+            <EditText
+
+                android:id="@+id/et_password"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+                android:ems="11"
+
+                android:hint="Password"
+
+                android:inputType="textPassword" />
+
+
+
+            <EditText
+
+                android:id="@+id/et_confirmpassword"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+                android:inputType="textPassword"
+
+                android:ems="11"
+
+                android:hint="Confirm Password" />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="20dp"
+
+
+
+                android:text="GENDER" />
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+
+
+                <RadioButton
+
+                    android:id="@+id/rb_male"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:text="Male" />
+
+
+
+                <RadioButton
+
+                    android:id="@+id/rb_female"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:text="Female" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+
+
+                <EditText
+
+                    android:id="@+id/et_height"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="30dp"
+
+                    android:hint="Height" />
+
+
+
+
+
+                <EditText
+
+                    android:id="@+id/et_weight"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="70dp"
+
+                    android:hint="Weight" />
+
+
+
+            </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/arrow"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</FrameLayout>
